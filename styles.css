@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(228, 182, 129);
+}
+
+#calc_frame {
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 25px;
+    box-shadow: 0px 6px 5px black;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10;
+    
+}
+
+button p {
+    font-size: 44px;
+}
+
+#num_calc {
+    font-size: 46px;
+    line-height: 100.2px;
+}
+
+#num_result {
+    font-size: 52px;
+    line-height: 100.2px;
+}
+
+/* Row Styles */
+
+#row_1 {
+    flex: 16.7%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+    #row_1_col_1 {
+        flex: 62.5%;
+        background-color: rgb(235, 228, 228);
+        border-bottom: 0.5px solid black;
+        border-right: 0.5px solid black;
+        border-radius: 25px 0px 0px 0px;
+        overflow: auto;
+    }
+
+    #row_1_col_2 {
+        flex: 37.5%;
+        background-color: rgb(235, 228, 228);
+        border-bottom: 0.5px solid black;
+        border-radius: 0px 25px 0px 0px;
+        overflow: auto;
+    }
+
+#row_2 {
+    flex: 16.66%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+    #row_2_col_1 {
+        flex: 25%;
+    }
+
+    #row_2_col_2 {
+        flex: 25%;
+    }
+
+    #row_2_col_3 {
+        flex: 25%;
+    }
+
+    #row_2_col_4 {
+        flex: 25%;
+    }
+
+#row_3 {
+    flex: 16.66%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+    #row_3_col_1 {
+        flex: 25%;
+    }
+
+    #row_3_col_2 {
+        flex: 25%;
+    }
+
+    #row_3_col_3 {
+        flex: 25%;
+    }
+
+    #row_3_col_4 {
+        flex: 25%;
+    }
+
+#row_4 {
+    flex: 16.66%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+    #row_4_col_1 {
+        flex: 25%;
+    }
+
+    #row_4_col_2 {
+        flex: 25%;
+    }
+
+    #row_4_col_3 {
+        flex: 25%;
+    }
+
+    #row_4_col_4 {
+        flex: 25%;
+    }
+
+#row_5 {
+    flex: 16.66%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+    #row_5_col_1 {
+        flex: 25%;
+    }
+
+    #row_5_col_2 {
+        flex: 25%;
+    }
+
+    #row_5_col_3 {
+        flex: 25%;
+    }
+
+    #row_5_col_4 {
+        flex: 25%;
+    }
+
+#row_6 {
+    flex: 16.66%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+    #row_6_col_1 {
+        flex: 50%;
+    }
+
+    #row_6_col_2 {
+        flex: 50%;
+    }
+
+#row_7 {
+    flex: 16.66%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+    #row_7_col_1 {
+        flex: 50%;
+        background-color: rgb(211, 56, 0);
+    }
+
+    #row_7_col_2 {
+        flex: 25%;
+        background-color: orangered;
+    }
+
+    #row_7_col_3 {
+        flex: 25%;
+        background-color: rgba(248, 235, 53, 0.784);
+    }
+
+button {
+    border: 0.5px solid black;
+    border-radius: 25px;
+    margin: 5px;
+    position: relative;
+    transition: background-color 0.6s;
+}
+
+.gray_button {
+    background-color: lightgray;
+}
+
+.orange_button {
+    background-color: orange;
+}
+
+button:hover {
+    box-shadow: 0px 3.5px 0px darkslategray;
+    bottom: 3.5px;
+}
+
+button:active {
+    box-shadow: none;
+    bottom: 0px;
+}
+
+.gray_button:hover {
+    background-color: rgb(162, 162, 162);
+}
+
+.orange_button:hover {
+    background-color: rgb(223, 146, 3);
+}
+
+#row_7_col_1:hover {
+    background-color: rgb(175, 48, 2);
+}
+
+#row_7_col_2:hover {
+    background-color: rgb(218, 61, 3);
+}
+
+#row_7_col_3:hover {
+    background-color: rgba(223, 211, 47, 0.784);
+}
